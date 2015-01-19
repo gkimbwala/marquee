@@ -11,8 +11,14 @@ group :production do
 	gem 'pg'
 	gem 'rails_12factor'
 end
-# carrierwave
+# carrierwave to resize image
 gem 'carrierwave'
+
+# Use devise to authenticate
+gem 'devise'
+
+#gravtastic to add a gravatar to the app
+gem 'gravtastic'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.3'
 # Use Uglifier as compressor for JavaScript assets
